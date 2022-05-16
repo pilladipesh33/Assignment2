@@ -4,7 +4,7 @@ import {Overlay} from '@rneui/themed';
 import VideoPlayer from 'react-native-video-controls';
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-const {width, height} = Dimensions.get('screen');
+const { height} = Dimensions.get('screen');
 
 const VideoPlayers = () => {
   const [visible, setVisible] = useState(true);
